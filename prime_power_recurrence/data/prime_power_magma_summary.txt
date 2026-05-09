@@ -1,0 +1,82 @@
+Magma V2.29-6     Thu May  7 2026 21:50:35 on Chatchawans-Laptop [Seed = 
+178243000]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "magma/search_prime_powers.m"
+Building right map for r=2
+r=2 p=2 solutions=7
+r=2 p=3 solutions=7
+r=2 p=5 solutions=5
+r=2 p=7 solutions=6
+r=2 p=11 solutions=5
+r=2 p=13 solutions=5
+r=2 p=17 solutions=5
+r=2 p=19 solutions=5
+r=2 p=23 solutions=5
+r=2 p=29 solutions=5
+r=2 p=31 solutions=5
+Building right map for r=3
+r=3 p=2 solutions=6
+r=3 p=3 solutions=7
+r=3 p=5 solutions=6
+r=3 p=7 solutions=5
+r=3 p=11 solutions=5
+r=3 p=13 solutions=5
+r=3 p=17 solutions=5
+r=3 p=19 solutions=5
+r=3 p=23 solutions=5
+r=3 p=29 solutions=5
+r=3 p=31 solutions=5
+Building right map for r=5
+r=5 p=2 solutions=5
+r=5 p=3 solutions=6
+r=5 p=5 solutions=7
+r=5 p=7 solutions=5
+r=5 p=11 solutions=5
+r=5 p=13 solutions=5
+r=5 p=17 solutions=5
+r=5 p=19 solutions=5
+r=5 p=23 solutions=5
+r=5 p=29 solutions=5
+r=5 p=31 solutions=5
+Building right map for r=7
+r=7 p=2 solutions=5
+r=7 p=3 solutions=5
+r=7 p=5 solutions=5
+r=7 p=7 solutions=7
+r=7 p=11 solutions=6
+r=7 p=13 solutions=5
+r=7 p=17 solutions=5
+r=7 p=19 solutions=5
+r=7 p=23 solutions=5
+r=7 p=29 solutions=5
+r=7 p=31 solutions=5
+Building right map for r=11
+r=11 p=2 solutions=5
+r=11 p=3 solutions=5
+r=11 p=5 solutions=5
+r=11 p=7 solutions=5
+r=11 p=11 solutions=7
+r=11 p=13 solutions=5
+r=11 p=17 solutions=6
+r=11 p=19 solutions=5
+r=11 p=23 solutions=5
+r=11 p=29 solutions=5
+r=11 p=31 solutions=5
+Building right map for r=13
+r=13 p=2 solutions=5
+r=13 p=3 solutions=5
+r=13 p=5 solutions=5
+r=13 p=7 solutions=6
+r=13 p=11 solutions=5
+r=13 p=13 solutions=7
+r=13 p=17 solutions=5
+r=13 p=19 solutions=5
+r=13 p=23 solutions=5
+r=13 p=29 solutions=5
+r=13 p=31 solutions=5
+Total solutions: 351
+Primitive nonzero solutions: 0
+Wrote data/prime_power_magma.csv
+
+Total time: 0.410 seconds, Total memory usage: 64.12MB
