@@ -1,0 +1,7 @@
+Magma V2.29-6     Thu May  7 2026 21:50:25 on Chatchawans-Laptop [Seed = 
+3695776600]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "magma/local_sieve.m"
+
+Total time: 0.389 seconds, Total memory usage: 32.09MB
