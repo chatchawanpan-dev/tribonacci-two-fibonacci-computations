@@ -1,0 +1,211 @@
+solutions=626
+primitive_nonzero=0
+class_counts:
+  one-zero-side: 449
+  one-zero-side: p=r and F_m=T_n: 48
+  small-value imprimitive: 9
+  zero: 120
+nonempty_(r,p)_counts:
+  r=2, p=2: 7
+  r=2, p=3: 7
+  r=2, p=5: 5
+  r=2, p=7: 6
+  r=2, p=11: 5
+  r=2, p=13: 5
+  r=2, p=17: 5
+  r=2, p=19: 5
+  r=2, p=23: 5
+  r=2, p=29: 5
+  r=2, p=31: 5
+  r=2, p=37: 5
+  r=2, p=41: 5
+  r=2, p=43: 5
+  r=2, p=47: 5
+  r=3, p=2: 6
+  r=3, p=3: 7
+  r=3, p=5: 6
+  r=3, p=7: 5
+  r=3, p=11: 5
+  r=3, p=13: 5
+  r=3, p=17: 5
+  r=3, p=19: 5
+  r=3, p=23: 5
+  r=3, p=29: 5
+  r=3, p=31: 5
+  r=3, p=37: 5
+  r=3, p=41: 5
+  r=3, p=43: 5
+  r=3, p=47: 5
+  r=5, p=2: 5
+  r=5, p=3: 6
+  r=5, p=5: 7
+  r=5, p=7: 5
+  r=5, p=11: 5
+  r=5, p=13: 5
+  r=5, p=17: 5
+  r=5, p=19: 5
+  r=5, p=23: 5
+  r=5, p=29: 5
+  r=5, p=31: 5
+  r=5, p=37: 5
+  r=5, p=41: 5
+  r=5, p=43: 5
+  r=5, p=47: 5
+  r=7, p=2: 5
+  r=7, p=3: 5
+  r=7, p=5: 5
+  r=7, p=7: 7
+  r=7, p=11: 6
+  r=7, p=13: 5
+  r=7, p=17: 5
+  r=7, p=19: 5
+  r=7, p=23: 5
+  r=7, p=29: 5
+  r=7, p=31: 5
+  r=7, p=37: 5
+  r=7, p=41: 5
+  r=7, p=43: 5
+  r=7, p=47: 5
+  r=11, p=2: 5
+  r=11, p=3: 5
+  r=11, p=5: 5
+  r=11, p=7: 5
+  r=11, p=11: 7
+  r=11, p=13: 5
+  r=11, p=17: 6
+  r=11, p=19: 5
+  r=11, p=23: 5
+  r=11, p=29: 5
+  r=11, p=31: 5
+  r=11, p=37: 5
+  r=11, p=41: 5
+  r=11, p=43: 5
+  r=11, p=47: 5
+  r=13, p=2: 5
+  r=13, p=3: 5
+  r=13, p=5: 5
+  r=13, p=7: 6
+  r=13, p=11: 5
+  r=13, p=13: 7
+  r=13, p=17: 5
+  r=13, p=19: 5
+  r=13, p=23: 5
+  r=13, p=29: 5
+  r=13, p=31: 5
+  r=13, p=37: 5
+  r=13, p=41: 5
+  r=13, p=43: 5
+  r=13, p=47: 5
+  r=17, p=2: 5
+  r=17, p=3: 5
+  r=17, p=5: 5
+  r=17, p=7: 5
+  r=17, p=11: 5
+  r=17, p=13: 5
+  r=17, p=17: 7
+  r=17, p=19: 5
+  r=17, p=23: 5
+  r=17, p=29: 5
+  r=17, p=31: 5
+  r=17, p=37: 5
+  r=17, p=41: 5
+  r=17, p=43: 5
+  r=17, p=47: 5
+  r=19, p=2: 5
+  r=19, p=3: 5
+  r=19, p=5: 5
+  r=19, p=7: 5
+  r=19, p=11: 5
+  r=19, p=13: 5
+  r=19, p=17: 5
+  r=19, p=19: 7
+  r=19, p=23: 5
+  r=19, p=29: 6
+  r=19, p=31: 5
+  r=19, p=37: 5
+  r=19, p=41: 5
+  r=19, p=43: 5
+  r=19, p=47: 5
+first_rows:
+  r=2 p=2 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=2 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side: p=r and F_m=T_n
+  r=2 p=2 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side: p=r and F_m=T_n
+  r=2 p=2 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side: p=r and F_m=T_n
+  r=2 p=2 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side: p=r and F_m=T_n
+  r=2 p=2 n=3 m=3 ell=0 T_n=2 F_m=2 F_ell=0 gcd=2 one-zero-side: p=r and F_m=T_n
+  r=2 p=2 n=6 m=7 ell=0 T_n=13 F_m=13 F_ell=0 gcd=13 one-zero-side: p=r and F_m=T_n
+  r=2 p=3 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=3 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=3 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=3 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=3 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=3 n=3 m=3 ell=3 T_n=2 F_m=2 F_ell=2 gcd=2 small-value imprimitive
+  r=2 p=3 n=4 m=6 ell=0 T_n=4 F_m=8 F_ell=0 gcd=4 one-zero-side
+  r=2 p=5 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=5 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=5 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=5 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=5 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=7 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=7 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=7 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=7 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=7 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=7 n=3 m=6 ell=6 T_n=2 F_m=8 F_ell=8 gcd=2 small-value imprimitive
+  r=2 p=11 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=11 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=11 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=11 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=11 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=13 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=13 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=13 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=13 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=13 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=17 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=17 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=17 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=17 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=17 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=19 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=19 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=19 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=19 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=19 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=23 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=23 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=23 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=23 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=23 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=29 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=29 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=29 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=29 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=29 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=31 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=31 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=31 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=31 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=31 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=37 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=37 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=37 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=37 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=37 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=41 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=41 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=41 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=41 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=41 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=43 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=43 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=43 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=43 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=43 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=47 n=0 m=0 ell=0 T_n=0 F_m=0 F_ell=0 gcd=0 zero
+  r=2 p=47 n=1 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=47 n=1 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=47 n=2 m=1 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+  r=2 p=47 n=2 m=2 ell=0 T_n=1 F_m=1 F_ell=0 gcd=1 one-zero-side
+csv=data/prime_power_m500_n500_p47.csv
+elapsed_seconds=1.759
