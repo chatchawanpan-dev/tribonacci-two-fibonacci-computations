@@ -1,0 +1,46 @@
+DATASET=power_variant_i19_n300.csv
+bounds: i in [1,19], j in [1,19], n<= 10, m<= 12
+observed_solutions=1977
+observed_unique=1977
+all_observed_covered=True
+missing_expected=0
+class_counts=
+  I(a): n=0, (m,ell)=(0,0), arbitrary i,j: 361
+  I(b): n=1,2 with (m,ell)=(1,0),(2,0), arbitrary i,j: 1444
+  I(c): n=3, (m,ell) in {(1,1),(2,1),(2,2)}, i=1: 57
+  II: (i,j)=(1,1) branch: 9
+  III(13): n=6, (7,0), i=j: 18
+  III(2.i): n=3, (3,0), i=j: 18
+  III(2.ii): n=3, (3,3), i=j+1: 18
+  III(2.iii): n=3, (6,0), i=3j: 6
+  III(2.iv): n=3, (6,6), i=3j+1: 6
+  III(4.i): n=4, (3,0), j=2i: 9
+  III(4.ii): n=4, (3,3), j=2i-1: 9
+  III(4.iii): n=4, (6,0), 2i=3j: 6
+  III(4.iv): n=4, (6,6), 2i=3j+1: 6
+  III(81): n=9, (4,0), j=4i: 4
+  IV: sporadic extra: 6
+------------------------------------------------------------------------
+DATASET=power_variant_i49_n300.csv
+bounds: i in [1,49], j in [1,49], n<= 10, m<= 12
+observed_solutions=12435
+observed_unique=12435
+all_observed_covered=True
+missing_expected=0
+class_counts=
+  I(a): n=0, (m,ell)=(0,0), arbitrary i,j: 2401
+  I(b): n=1,2 with (m,ell)=(1,0),(2,0), arbitrary i,j: 9604
+  I(c): n=3, (m,ell) in {(1,1),(2,1),(2,2)}, i=1: 147
+  II: (i,j)=(1,1) branch: 9
+  III(13): n=6, (7,0), i=j: 48
+  III(2.i): n=3, (3,0), i=j: 48
+  III(2.ii): n=3, (3,3), i=j+1: 48
+  III(2.iii): n=3, (6,0), i=3j: 16
+  III(2.iv): n=3, (6,6), i=3j+1: 16
+  III(4.i): n=4, (3,0), j=2i: 24
+  III(4.ii): n=4, (3,3), j=2i-1: 24
+  III(4.iii): n=4, (6,0), 2i=3j: 16
+  III(4.iv): n=4, (6,6), 2i=3j+1: 16
+  III(81): n=9, (4,0), j=4i: 12
+  IV: sporadic extra: 6
+------------------------------------------------------------------------

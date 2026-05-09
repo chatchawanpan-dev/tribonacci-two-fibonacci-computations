@@ -1,0 +1,16 @@
+DATASET= power_variant_i19_n300.csv
+total_solutions= 1977
+nontrivial_solutions= 36
+nontrivial_distinct_(l,m,n)= [(3, 3, 3), (3, 3, 4), (6, 6, 3), (6, 6, 4)]
+family_counts= {'A(j+1,j,3,3,3)': 17, 'B(i,2i-1,3,3,4)': 9, 'C(3j+1,j,6,6,3)': 5, 'D(2i=3j+1,6,6,4)': 5}
+all_nontrivial_in_four_families= True
+nontrivial_with_n_ge_5= 0
+----------------------------------------------------------------------
+DATASET= power_variant_i49_n300.csv
+total_solutions= 12435
+nontrivial_solutions= 101
+nontrivial_distinct_(l,m,n)= [(3, 3, 3), (3, 3, 4), (6, 6, 3), (6, 6, 4)]
+family_counts= {'A(j+1,j,3,3,3)': 47, 'B(i,2i-1,3,3,4)': 24, 'C(3j+1,j,6,6,3)': 15, 'D(2i=3j+1,6,6,4)': 15}
+all_nontrivial_in_four_families= True
+nontrivial_with_n_ge_5= 0
+----------------------------------------------------------------------

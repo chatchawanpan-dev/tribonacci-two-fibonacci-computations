@@ -1,0 +1,22 @@
+CASE (i,j)= (1, 2) box= (80, 80)
+tribonacci_binet_a= 0.33623
+solutions_in_box= 10
+kappa= 1.0000
+Cstar= 33.549
+comparability_fail_eq_nm1= 0
+comparability_fail_eq_nm2= 0
+max_ratio_L1_over_rhs1= 0.086705
+max_ratio_L2_over_rhs2= 0.048122
+first_convergent_q_gt_6M= (649, 1025)
+----------------------------------------------------------------------
+CASE (i,j)= (2, 3) box= (80, 80)
+tribonacci_binet_a= 0.33623
+solutions_in_box= 6
+kappa= 1.0000
+Cstar= 146.44
+comparability_fail_eq_nm1= 0
+comparability_fail_eq_nm2= 0
+max_ratio_L1_over_rhs1= 0.026500
+max_ratio_L2_over_rhs2= 0.019475
+first_convergent_q_gt_6M= (607, 719)
+----------------------------------------------------------------------

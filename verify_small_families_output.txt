@@ -1,0 +1,6 @@
+box= (20, 20, 30, 30)
+family_verified= True
+nonfamily_total= 141
+first_nonfamily_by_(j,i,n,m,ell)= (1, 1, 3, 1, 1, 2, 1, 1)
+first_nonfamily_j_gt_1= (1, 2, 3, 1, 1, 2, 1, 1)
+first_nonfamily_j_gt_1_with_Fm_Fell_gt_1_and_ell_gt_0= (1, 2, 6, 4, 3, 13, 3, 2)

@@ -1,0 +1,14 @@
+=== Search settings ===
+Equation: (T_n)^i = (F_m)^j + (F_ell)^j
+Bounds: 1<=i<=100, 1<=j<=100, 0<=l<=100, 0<=m<=100, 0<=n<=100
+Constraint: l <= m is ON
+0^0 convention: excluded
+
+=== Results ===
+Total solutions found: 50868
+ i   j   l   m   n   value
+------------------------------
+... (50868 more rows not shown)
+
+Runtime: 0.5222 seconds
+CSV written to: power_variant_i100_n100.csv
