@@ -1,0 +1,23 @@
+DATASET=power_variant_i100_n100.csv
+bounds: i in [1,100], j in [1,100], n<= 10, m<= 12
+observed_solutions=50868
+observed_unique=50868
+all_observed_covered=True
+missing_expected=0
+class_counts=
+  I(a): n=0, (m,ell)=(0,0), arbitrary i,j: 10000
+  I(b): n=1,2 with (m,ell)=(1,0),(2,0), arbitrary i,j: 40000
+  I(c): n=3, (m,ell) in {(1,1),(2,1),(2,2)}, i=1: 300
+  II: (i,j)=(1,1) branch: 9
+  III(13): n=6, (7,0), i=j: 99
+  III(2.i): n=3, (3,0), i=j: 99
+  III(2.ii): n=3, (3,3), i=j+1: 99
+  III(2.iii): n=3, (6,0), i=3j: 33
+  III(2.iv): n=3, (6,6), i=3j+1: 33
+  III(4.i): n=4, (3,0), j=2i: 50
+  III(4.ii): n=4, (3,3), j=2i-1: 49
+  III(4.iii): n=4, (6,0), 2i=3j: 33
+  III(4.iv): n=4, (6,6), 2i=3j+1: 33
+  III(81): n=9, (4,0), j=4i: 25
+  IV: sporadic extra: 6
+------------------------------------------------------------------------
