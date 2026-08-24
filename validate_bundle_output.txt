@@ -1,0 +1,5 @@
+first_reduction_rows = 1
+second_reduction_rows = 186
+solution_count = 17
+largest_common_value = 149
+bundle_validation_status = PASS
