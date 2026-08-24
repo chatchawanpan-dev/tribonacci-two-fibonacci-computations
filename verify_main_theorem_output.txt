@@ -1,5 +1,6 @@
 search_box_n_max = 159
 search_box_m_max = 198
+exact_comparison_count = 3184000
 solution_count = 17
 (0, 0, 0) value = 0
 (1, 1, 0) value = 1

@@ -59,17 +59,21 @@ F = fibonacci_numbers(M_MAX)
 T = tribonacci_numbers(N_MAX)
 
 solutions = []
+comparison_count = 0
 for n in range(N_MAX + 1):
     value = T[n]
     for m in range(M_MAX + 1):
         for ell in range(m + 1):
+            comparison_count += 1
             if value == F[m] + F[ell]:
                 solutions.append((n, m, ell))
 
 assert solutions == expected
+assert comparison_count == 3184000
 
 print("search_box_n_max =", N_MAX)
 print("search_box_m_max =", M_MAX)
+print("exact_comparison_count =", comparison_count)
 print("solution_count =", len(solutions))
 for triple in solutions:
     n, m, ell = triple
