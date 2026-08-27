@@ -1,0 +1,89 @@
+name: Publish complete ESM_1 release asset
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/publish-complete-esm.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the reviewed computational record
+        uses: actions/checkout@v4
+        with:
+          ref: 720877970df8d2313a6c8df2cb103a5666f8ee27
+
+      - name: Verify and build the self-contained supplement
+        shell: bash
+        run: |
+          set -euo pipefail
+          sha256sum -c SHA256SUMS.txt
+
+          bundle_dir=tribonacci_two_fibonacci_computational_supplement_v1.0.0
+          mkdir -p "$bundle_dir/generated_tables_parts"
+          while read -r digest file_path; do
+            mkdir -p "$bundle_dir/$(dirname "$file_path")"
+            cp -p -- "$file_path" "$bundle_dir/$file_path"
+          done < SHA256SUMS.txt
+          cp -p -- SHA256SUMS.txt "$bundle_dir/SHA256SUMS.txt"
+          chmod 0755 "$bundle_dir/regenerate.sh"
+
+          find "$bundle_dir" -exec touch -t 202608271653.10 {} +
+
+          zip -X -q ESM_1.zip \
+            "$bundle_dir/" \
+            "$bundle_dir/CHECKSUMS.md" \
+            "$bundle_dir/ENVIRONMENT.md" \
+            "$bundle_dir/main_reduction_table.csv" \
+            "$bundle_dir/regenerate.sh" \
+            "$bundle_dir/verify_main_theorem_output.txt" \
+            "$bundle_dir/main_reduction_log.txt" \
+            "$bundle_dir/README.md" \
+            "$bundle_dir/generated_tables_parts/" \
+            "$bundle_dir/generated_tables_parts/generated_tables.zip.b64.part_09.txt" \
+            "$bundle_dir/generated_tables_parts/generated_tables.zip.b64.part_08.txt" \
+            "$bundle_dir/generated_tables_parts/README.md" \
+            "$bundle_dir/generated_tables_parts/generated_tables.zip.b64.part_06.txt" \
+            "$bundle_dir/generated_tables_parts/generated_tables.zip.b64.part_07.txt" \
+            "$bundle_dir/generated_tables_parts/generated_tables.zip.b64.part_05.txt" \
+            "$bundle_dir/generated_tables_parts/generated_tables.zip.b64.part_04.txt" \
+            "$bundle_dir/generated_tables_parts/generated_tables.zip.b64.part_00.txt" \
+            "$bundle_dir/generated_tables_parts/generated_tables.zip.b64.part_01.txt" \
+            "$bundle_dir/generated_tables_parts/generated_tables.zip.b64.part_03.txt" \
+            "$bundle_dir/generated_tables_parts/generated_tables.zip.b64.part_02.txt" \
+            "$bundle_dir/independent_exact_search.py" \
+            "$bundle_dir/verify_main_theorem.sage" \
+            "$bundle_dir/main_reduction.sage" \
+            "$bundle_dir/validate_bundle_output.txt" \
+            "$bundle_dir/validate_bundle.py" \
+            "$bundle_dir/SHA256SUMS.txt" \
+            "$bundle_dir/first_reduction_certificate.csv" \
+            "$bundle_dir/independent_exact_search_output.txt"
+
+          expected=b6abcf153b0e21a76c2d02af472560dc768462132125e1f0ec697dbdb723262c
+          actual=$(sha256sum ESM_1.zip | awk '{print $1}')
+          test "$actual" = "$expected"
+
+          printf '%s  ESM_1.zip\n' "$expected" > ESM_1.zip.sha256
+          cp ESM_1.zip tribonacci-two-fibonacci-computations-v1.0.0.zip
+          printf '%s  tribonacci-two-fibonacci-computations-v1.0.0.zip\n' "$expected" \
+            > tribonacci-two-fibonacci-computations-v1.0.0.zip.sha256
+
+      - name: Replace the incomplete assets and publish the manuscript-named alias
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload v1.0.0 \
+            ESM_1.zip \
+            ESM_1.zip.sha256 \
+            tribonacci-two-fibonacci-computations-v1.0.0.zip \
+            tribonacci-two-fibonacci-computations-v1.0.0.zip.sha256 \
+            --clobber \
+            --repo "$GITHUB_REPOSITORY"
